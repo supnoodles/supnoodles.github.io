@@ -3,8 +3,8 @@ layout: single
 author_profile: true
 classes: wide
 permalink: /about/
+title: "About me"
 ---
-
 
 <br>
 ```json

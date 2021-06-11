@@ -1,0 +1,28 @@
+---
+title:  "Creating a venv"
+date:   2021-06-10 19:25:42 +0100
+categories: python venv 
+---
+
+## Why?
+You may ask why not just pip install everything onto C:/ ? The answer is that, most of the time this is fine, but in certain cases it will create conflict. Issues can arise if working across many projects who have specific dependencies, and playing around with your libraries can create conflicts in your other projects.
+
+## via CMD
+
+1) Open up your terminal. Navigate to the local directory of your choosing.<br><br>
+2) Create the venv with the command:
+{% highlight bat %}
+python -m venv YourProjectName
+{% endhighlight %}
+3) Enter the venv by activating : **"../YourProjectName/Scripts/activate.bat"** <br>
+   It will be obvious that you have activated the venv, as its name will be fixed on CMD.
+   <br><br>
+4) You can now simply pip install all the libs that you need, and these installs will be specific to this venv.
+
+## via Bash
+
+only difference for Bash, is that for step 3 you simply enter the following to activate venv:
+{% highlight bash %}
+$ source YourProjectName/Scripts/activate
+{% endhighlight %}
+*(assuming correct initial directory)*

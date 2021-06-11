@@ -5,7 +5,6 @@ classes: wide
 permalink: /about/
 ---
 
-# About me
 
 <br>
 ```json

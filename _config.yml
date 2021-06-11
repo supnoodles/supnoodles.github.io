@@ -71,6 +71,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/supnoodles"
 
+include: ["_pages"]
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.23.0"

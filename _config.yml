@@ -18,19 +18,79 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+locale: "en-GB"
+title: "supnoodles.github.io"
+title_separator: " ~ "
+masthead_title: "supnoodles"
+subtitle: "~ documenting the learning process ~"
+name: "supnoodles" # (footer)
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A list of the projects that I undergo. Python is expected
+  to be the main agent used.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+logo: "/assets/images/github_logo.svg"
+words_per_minute: 200
+
+paginate: 5 # max posts per page
+# paginate_path: "/blog/page:num/" (destination of pagination pages)
+
+# Search
+search: true
+
+# Disable RSS Feed
+atom_feed:
+  hide: true
+
+# Author bar on the left
+author:
+  name     : "Dan Yakovenko"
+  avatar   : "/assets/images/ph_avatar.svg"
+  bio      : >-
+    *I love python, problem solving & analysing data. You can find my documented projects
+     all on this lovely url.*
+  links:     
+  - label: "<b>GitHub</b>"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/supnoodles"
+  - label: "<b>LeetCode</b>"
+    icon: "fas fa-fw fa-code"
+    url: "https://leetcode.com/supnoodles/"
+  - label: "<b>Kaggle</b>"
+    icon: "fab fa-fw fa-kaggle"
+    url: "https://www.kaggle.com/supnoodles"
+  # may also include
+  # - label: "<b>HackerRank</b>"
+  #   icon: "fab fa-fw fa-hackerrank"
+  #   url: "https://www.hackerrank.com/supnoodless"
+
+  # Default for pages in _layouts
+defaults:
+  # defaults for _posts
+  - scope:
+      path: _posts
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      show_date: true
+      read_time: true
+      comments: false
+      share: true
+      related: false
+      classes: wide
+      permalink: /:title/
+
+footer:
+  links:
+    - label: "<b>GitHub</b>"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/supnoodles"
+
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.23.0"
+minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
   - jekyll-include-cache

@@ -9,7 +9,7 @@ title: "About me"
 <br>
 ```json
 {
-  "firstName": "Dan",
+  "firstName": "DAN",
   "lastName": "Yakovenko",
   "interests": ["python", "c++", "data_science"],
   "weaknesses" : null,

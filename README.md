@@ -1,0 +1,1 @@
+Documentation by creator of the theme can be found [here](https://mmistakes.github.io/minimal-mistakes/) .

@@ -27,9 +27,7 @@ atom_feed:
 author:
   name     : "Dan Yakovenko"
   avatar   : "/assets/images/ph_avatar.svg"
-  bio      : >-
-    * All documented projects, ideas
-     & building blocks lie here.*
+  bio      : "*All documented projects, ideas & building blocks lie here.*"
   links:     
   - label: "<b>GitHub</b>"
     icon: "fab fa-fw fa-github"
@@ -62,7 +60,9 @@ defaults:
       related: false
       classes: wide
       permalink: /:title/
+      mathjax: true
 
+  
 footer:
   links:
     - label: "<b>GitHub</b>"

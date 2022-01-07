@@ -1,7 +1,3 @@
-# git add .
-# git commit -m "comment"
-# git push origin main
-
 locale: "en-GB"
 title: "supnoodles.github.io"
 title_separator: " ~ "
@@ -16,6 +12,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/images/github_logo.svg"
 words_per_minute: 200
 
+# Pagination settings
 paginate: 5 # max posts per page
 # paginate_path: "/blog/page:num/" (destination of pagination pages)
 
@@ -31,8 +28,8 @@ author:
   name     : "Dan Yakovenko"
   avatar   : "/assets/images/ph_avatar.svg"
   bio      : >-
-    *I love python, problem solving & analysing data. You can find my documented projects
-     all on this lovely url.*
+    * All documented projects, ideas
+     & building blocks lie here.*
   links:     
   - label: "<b>GitHub</b>"
     icon: "fab fa-fw fa-github"
@@ -40,9 +37,10 @@ author:
   - label: "<b>LeetCode</b>"
     icon: "fas fa-fw fa-code"
     url: "https://leetcode.com/supnoodles/"
-  - label: "<b>Kaggle</b>"
-    icon: "fab fa-fw fa-kaggle"
-    url: "https://www.kaggle.com/supnoodles"
+  # optional: 
+  # - label: "<b>Kaggle</b>"
+  #   icon: "fab fa-fw fa-kaggle"
+  #   url: "https://www.kaggle.com/supnoodles"
   # may also include
   # - label: "<b>HackerRank</b>"
   #   icon: "fab fa-fw fa-hackerrank"
